@@ -1,4 +1,4 @@
-package com.bytesco.demo;
+package com.bytesco.demo.model;
 
 import lombok.Data;
 

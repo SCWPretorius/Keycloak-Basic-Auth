@@ -1,4 +1,4 @@
-package com.bytesco.demo;
+package com.bytesco.demo.config;
 
 import org.keycloak.adapters.springboot.KeycloakSpringBootConfigResolver;
 import org.keycloak.adapters.springsecurity.KeycloakSecurityComponents;

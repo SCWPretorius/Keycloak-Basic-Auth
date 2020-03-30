@@ -1,5 +1,6 @@
-package com.bytesco.demo;
+package com.bytesco.demo.controller;
 
+import com.bytesco.demo.model.TokenModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
@@ -7,7 +8,7 @@ import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.client.WebClient;
 
 @RestController
-public class Controller {
+public class LoginController {
 
     @Autowired
     private WebClient.Builder webClientBuilder;
